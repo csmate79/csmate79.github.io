@@ -33,6 +33,30 @@ a {
 .form-control {
    border-radius: 2em !important;
 }
+.input-group {
+	border: 1px lightgray solid;
+	border-radius: 2em;
+}
+.input-group:hover {
+    color: #495057;
+    background-color: none !important;
+    border-color: gray !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: none !important;
+    border-color: gray !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.input-group:hover {
+	box-shadow: 0 0 8px lightgray !important;
+}
+.form-control {
+	border: none !important;
+}
 .buttons {
 	margin-top: 35px;
 }
