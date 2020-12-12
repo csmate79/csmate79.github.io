@@ -1,0 +1,303 @@
+body, html {
+	height: 100%;
+	color: #005984 !important;
+}
+button.btn {
+    border-radius: 0;
+}
+/*----top banner----*/
+.focim {
+	color: white;
+	padding-top: 0.7em;
+	font-size: 2em;
+}
+.btn {
+	color: #005984 !important;
+	border-radius: 0;
+}
+.top-banner {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: url("imgs/felso_hatter.png") center;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	color: #005984;
+}
+.top_doctor_logo {
+	height: 100px;
+}
+section.top-banner {
+    text-align: center;
+}
+.top-banner p img {
+	height: 25px;
+}
+.infos {
+	text-align: left;
+}
+.icons {
+	height: 35px;
+}
+/*-----navbar------*/
+.navit a {
+	color: #005984;
+}
+nav.navbar.navbar-expand-xl.justify-content-center {
+    padding: 0rem 1rem;
+}
+.dropdown-menu {
+    color: white;
+    background-color: #35668d;
+    background-image: linear-gradient(0deg, #35668d 0%, #70e2dd 100%);
+}
+.nav-menu .nav .nav-item a:hover {
+	color: #fff;
+}
+.nav-menu .nav .nav-item a:hover {
+	background-color: #35668d;
+    background-image: linear-gradient(0deg, #35668d 0%, #70e2dd 100%);
+	color: white;
+}
+.dropdown .nav-menu .nav .nav-item a:hover {
+    color: white;
+}
+.dropdown-toggle {
+	color: #005984;
+}
+.dropdown-menu {
+	background-color: #005984 !important;
+	color: white;
+}
+.dropdown-item {
+	color: white !important;
+}
+.dropdown-menu a:hover {
+	color: #cffaff !important;
+}
+.dropdown-item:hover {
+    background: none !important;
+}
+.navbar-toggler-icon {
+	color: gray;
+}
+.custom-toggler.navbar-toggler { 
+	border-color: rgb(0, 170, 255); 
+}
+.custom-toggler .navbar-toggler-icon { 
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 170, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+.custom-toggler:active,hover {
+	border-color: rgb(0, 170, 255);
+}
+/*------------------*/
+.lorem .btn {
+	border-color: lightgray;
+	border-radius: 0px;
+	color: #005984;
+}
+.lorem .row {
+	padding-top: 5%;
+}
+section.lorem {
+	background: url("imgs/tablet_background.png") center;
+	background-size: cover;
+	padding-bottom: 5%;
+	color: #fff;
+}
+section.lorem .btn {
+	background-color: white;
+	color: #005984;
+}
+/*-----welcome section------*/
+#doctor_back {
+	background: url("imgs/doctor_alak.png");
+	overflow: auto;
+	background-position: bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-size: 80%;
+  	padding-top: 40%;
+    margin-top: -30%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: -5%; 
+    padding-bottom: 15%;
+}
+.tud-tob {
+	background: url("imgs/tudjon_meg_tobbet.png");
+	background-size: 65%;
+	background-repeat: no-repeat;
+}
+.listing p {
+	margin-block-end: 1em;
+}
+.check-mark {
+	height: 50%;
+}
+/*---section dijtetelek------*/
+section.dijtetelek {
+	background: url("imgs/csalad_hatter.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	margin-bottom: 2em; 
+}
+.dijtetelek p {
+	font-size: 150%;
+	margin-top: 2em;
+}
+.dijtetelek .btn {
+	margin-bottom: 1.5em;
+	border-radius: 0;
+}
+/*---------twin bow------*/
+.korona {
+	background: url("imgs/korona.png") center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vakcina {
+	background: url("imgs/vakcina.png") center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.twin-box h1 {
+	font-size: 150%;
+	color: #8af1fb;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	word-wrap: break-word;
+}
+.twin-box p {
+	color: white;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+.twin-box .row {
+	padding-bottom: 1.5em;
+}
+/*----bejelentkezés----*/
+.parallelogram {
+    display:inline-block;
+    margin: 0 0 0 20px;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    background-color: white;
+}
+.parallelogram input {
+    outline: none;
+    border: none;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+}
+section.bejelentkezes form {
+	margin-top: 4em;
+}
+.bej-p-btn {
+	margin-top: 1.5em;
+}
+.bejelentkezes {
+	padding-bottom: 2em;
+	background: url("imgs/bejelentkezes_hatter.png") center;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+}
+/*----- four box ---- */
+.four-icons {
+	max-height: 6em;
+	margin-bottom: 2em;
+}
+.box {
+	box-shadow: 0 0 20px 1px #888888;
+	padding: 2em 1em 2em 1em;
+	padding-left: 5em;
+	max-height: 25em;
+}
+.box h3 {
+	font-size: 1.3em;
+}
+.boxes {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	max-height: 100%;
+}
+.equal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.equal > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.four-box button.btn {
+    background: #3dc1cf;
+    color: white !important;
+}
+.four-box button.btn:hover {
+    background: #36a9b5;
+    color: white !important;
+}
+/*-------hirlevél-------*/
+.hirlevel p {
+	font-size: 150%;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
+.hirlevel {
+	padding-bottom: 2em;
+	background: url("imgs/hirlevel.png") center;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+}
+/*------Információk------*/
+.informations {
+	padding-top: 2em;
+}
+.informations img {
+	height: 3.5em;
+	margin-bottom: 15px;
+}
+section.informations {
+	background: url("imgs/info_hatter.png") center;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	padding-top: 1.5em;
+	padding-bottom: 0.5em;
+}
+/*-----end section------*/
+.end-section a:hover {
+	text-decoration: none;
+}
+.end-section p {
+	font-size: 0.8em;
+	margin-bottom: 0.5rem;
+}
+.end-section {
+	padding-top: 2em;
+}
+.chco {
+	color: #005984;
+}
+.copy-div a {
+	font-size: 13px;
+	color: #005984 !important;
+}
+.bottom_doctor_logo {
+	height: 6.5em;
+}
+.social {
+	height: 3.5em;
+}
